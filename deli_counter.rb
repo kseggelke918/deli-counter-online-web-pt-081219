@@ -21,7 +21,7 @@ def take_a_number(current_line, person_joining)
     puts "There is nobody waiting to be served!"
    else 
     array.each do |customer|
-      binding.pry 
+      #binding.pry 
       array.shift 
       array 
     end 
