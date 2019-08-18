@@ -15,7 +15,12 @@ def take_a_number(current_line, person_joining)
     puts "Welcome, #{person_joining}. You are number #{current_line.length} in line."
  end 
  
- def now_serving
-   if 
-   puts 
+ def now_serving(array)
+   if array == []
+    puts "There is nobody waiting to be served!"
+   else 
+    array.each do |customer|
+      array.shift 
+    end 
+   end 
  end 
