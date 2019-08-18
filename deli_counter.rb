@@ -6,10 +6,13 @@ def line(array)
   else 
     array.each do |customer|
     new_array << count
+    new_array << ". "
     new_array << customer
+    new_array << " "
     count += 1 
     end 
+    line = new_array.join 
       
-     puts "The line is currently:" #{new_array}.join
+     puts "The line is currently: #{line}"
   end 
 end 
