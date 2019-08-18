@@ -9,7 +9,7 @@ def line(array)
     new_array << count
     new_array << ". "
     new_array << customer
-    if new_array.length < 1,000,000 
+    if new_array.length < 1000000 
       new_array << " "
     end 
     count += 1 
