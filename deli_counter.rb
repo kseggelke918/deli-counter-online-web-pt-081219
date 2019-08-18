@@ -14,9 +14,12 @@ def line(array)
     end 
     count += 1 
     end   
-    line = new_array.join 
+    deli_line = new_array.join 
       
-     puts "The line is currently: #{line}"
+     puts "The line is currently: #{deli_line}"
   end 
 end
 
+def take_a_number(current_line, person_joining)
+  current_line << person_joining
+end 
