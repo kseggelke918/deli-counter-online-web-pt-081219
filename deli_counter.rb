@@ -9,12 +9,12 @@ def line(array)
     new_array << count
     new_array << ". "
     new_array << customer
-    if new_array.length < 1000000 
+    if new_array.length < 10 
       new_array << " "
     end 
     count += 1 
     end 
-    #binding.pry 
+    binding.pry 
     line = new_array.join 
       
      puts "The line is currently: #{line}"
