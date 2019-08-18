@@ -27,9 +27,9 @@ def line(array)
   else 
     array.each_with_index do |customer, index|
       new_array << "#{index + 1}. #{customer}"
+      end 
       puts "The line is currently: #{new_array.join(" ")}"
-    end 
-  end 
+    end  
 end
 
 def take_a_number(current_line, person_joining)
