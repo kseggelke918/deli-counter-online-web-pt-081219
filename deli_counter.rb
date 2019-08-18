@@ -25,8 +25,6 @@ def take_a_number(current_line, person_joining)
     current_line << person_joining
     puts "Welcome, #{person_joining}. You are number 1 in line."
   else 
-    line(current_line)
-    current_line << person_joining
-    puts "Welcome #{person_joining}. You are number #{count} in line." 
+    line(current_line) 
   end 
 end 
