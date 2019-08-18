@@ -22,8 +22,7 @@ def take_a_number(current_line, person_joining)
    else 
     array.each do |customer|
       #binding.pry 
-      array.shift 
-      array 
+      puts "Currently serving #{array.shift}." 
     end 
    end 
  end 
