@@ -23,6 +23,7 @@ def take_a_number(current_line, person_joining)
     array.each do |customer|
       binding.pry 
       array.shift 
+      array 
     end 
    end 
  end 
