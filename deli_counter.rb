@@ -9,6 +9,6 @@ def line(array)
     new_array << customer
     count += 1 
     end 
-    return "The line is currently: #{new_array}.join"
+     puts "The line is currently: #{new_array}.join"
   end 
 end 
