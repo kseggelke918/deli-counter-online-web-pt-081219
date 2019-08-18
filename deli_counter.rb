@@ -21,7 +21,7 @@ def line(array)
 end
 
 def take_a_number(current_line, person_joining)
-  if current_line == []
+
     current_line << person_joining
-    puts "Welcome, #{person_joining}. You are number 1 in line."
+    puts "Welcome, #{person_joining}. You are number  in line."
  
