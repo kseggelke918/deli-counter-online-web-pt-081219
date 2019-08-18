@@ -23,7 +23,7 @@ def take_a_number(current_line, person_joining)
     array.each do |customer|
       #binding.pry 
       puts "Currently serving #{array.shift}." 
-      array.shift
+      #array.shift
     end 
    end 
  end 
