@@ -14,3 +14,8 @@ def take_a_number(current_line, person_joining)
     current_line << person_joining
     puts "Welcome, #{person_joining}. You are number #{current_line.length} in line."
  end 
+ 
+ def now_serving
+   if 
+   puts 
+ end 
