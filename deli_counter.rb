@@ -1,3 +1,4 @@
+require "pry"
 def line(array)
   count = 1 
   new_array = []
@@ -5,6 +6,7 @@ def line(array)
     puts "The line is currently empty."
   else 
     array.each do |customer|
+      binding.pry 
     new_array << count
     new_array << ". "
     new_array << customer
