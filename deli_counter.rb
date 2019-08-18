@@ -14,7 +14,7 @@ def line(array)
     end 
     count += 1 
     end 
-    binding.pry 
+    #binding.pry 
     line = new_array.join 
       
      puts "The line is currently: #{line}"
