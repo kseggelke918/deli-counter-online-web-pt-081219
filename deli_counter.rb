@@ -8,7 +8,7 @@ def line(array)
     new_array << count
     new_array << ". "
     new_array << customer
-    if new_array.length <= customer.length 
+    if new_array.length >= customer.length 
       new_array << " "
     end 
     count += 1 
