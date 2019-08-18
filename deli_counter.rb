@@ -1,4 +1,4 @@
-require "pry"
+
 def line(array)
   count = 1 
   new_array = []
@@ -9,12 +9,11 @@ def line(array)
     new_array << count
     new_array << ". "
     new_array << customer
-    if new_array.length <= (array.length)*3 
+    if new_array.length < ((array.length)*4)-1 
       new_array << " "
     end 
     count += 1 
-    end 
-    #binding.pry 
+    end   
     line = new_array.join 
       
      puts "The line is currently: #{line}"
