@@ -6,7 +6,6 @@ def line(array)
     puts "The line is currently empty."
   else 
     array.each do |customer|
-      binding.pry 
     new_array << count
     new_array << ". "
     new_array << customer
@@ -15,6 +14,7 @@ def line(array)
     end 
     count += 1 
     end 
+    binding.pry 
     line = new_array.join 
       
      puts "The line is currently: #{line}"
