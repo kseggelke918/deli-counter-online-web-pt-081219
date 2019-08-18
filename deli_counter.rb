@@ -22,6 +22,5 @@ def take_a_number(current_line, person_joining)
    else 
       puts "Currently serving #{array[0]}." 
       array.shift
-    end 
    end 
  end 
