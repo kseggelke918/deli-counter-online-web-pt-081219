@@ -20,8 +20,6 @@ def take_a_number(current_line, person_joining)
    if array == []
     puts "There is nobody waiting to be served!"
    else 
-    array.each do |customer|
-      #binding.pry 
       puts "Currently serving #{array[0]}." 
       array.shift
     end 
